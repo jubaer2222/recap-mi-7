@@ -11,7 +11,7 @@ function App() {
     <div className='flex gap-2'>
        <button onClick={() =>setCounter(counter + 1)} className="btn btn-primary">Add</button>
      <button onClick={() =>setCounter(counter - 1)} className="btn btn-primary">Remove</button>
-     <button onClick={() =>setCounter(counter + 1)} className="btn btn-primary"></button>
+     <button onClick={() =>setCounter(0)} className="btn btn-primary">Reset</button>
     </div>
    </div>
   )
