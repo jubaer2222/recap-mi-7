@@ -8,7 +8,11 @@ function App() {
   return (
    <div className='my-10 flex flex-col gap-5 justify-center items-center'>
     <p>Total Clicked : {counter}</p>
-     <button onClick={() =>setCounter(counter + 1)} className="btn btn-primary">Primary</button>
+    <div className='flex gap-2'>
+       <button onClick={() =>setCounter(counter + 1)} className="btn btn-primary">Add</button>
+     <button onClick={() =>setCounter(counter - 1)} className="btn btn-primary">Remove</button>
+     <button onClick={() =>setCounter(counter + 1)} className="btn btn-primary"></button>
+    </div>
    </div>
   )
 }
